@@ -35,6 +35,9 @@ The main part of the app is the Video Stream, redirected to from the login or af
 the video stream, which is a continous live video feed of their camera. This is set up via Amazon Kinesis. From here, all faces in the
 stream are sent to Rekognition for detection and recognition.
 
+The user can stop the stream at any time. Once stopped, the images of all of the users that were recognized from the moment the stream 
+started up until the point that the stream was stopped are displayed at the top left. Clicking on an image redirects to the corresponding image's associated Instagram page.
+
 ### Other small features
 * Full validation of every form was taken into consideration (password lengths, existing users, no face present in registration, mandatory fields, etc.)
 * Settings page - the user can view and change their information, including their image
@@ -42,4 +45,28 @@ stream are sent to Rekognition for detection and recognition.
 * Registration pickup: if the user quits the app before entering their confirmation code on registration and then tries to login, they are redirected to a page that prompts them to enter another verification code.
 In addition, if the user quits the app after entering their confirmation code but before filling in their registration information (taking their picture, for example), they are redirected back to the registration page.
 
-### Screenshots of the app
+### Screenshots of the app (face shots courtesy of Jimi)
+
+The login page 
+![main page](https://lh5.googleusercontent.com/8pP1b_jyPe6_r3t-tvA_yD-TUjeJqHA2yzo6FJol_zu9YMtGJd61vumCRQD7c4kkbmdl1OkajhIKmabzld2q1T2Ivcn1OUl6Xfo1xTB1smPrsy0km0xHb6SFYNi2Dfg7wPK_qoT1)
+
+Forgot password page
+![main page](https://lh3.googleusercontent.com/hoJ6BfrudoYy5_AzkeFybK7sqwY0nWKERN1r4laqXQzbLk_fJxfxN-njoK9mMtRQNoQoJp4qNBWAIjyHxefd6d5VNP_5-ZjgJKvC7YlKYYcWtO1MR9t9ZBUdYhrjLw8wZMxGU59x)
+
+Registration page step 1: ToS
+![main page](https://lh6.googleusercontent.com/uBX2zZI86pa2e7e_F7CMlzb4AG5c4NsvNimujHrnBSm5NKiR0N8bv0vLOcnQAqqJWMTXUldhEdceIE44vVOA0_1gWxv9u5MiQKCMFTygiMO60JDIUG6E5ZybjDk5fsf9uhdxX09S)
+
+Registration page step 2: E-mail and password
+![main page](https://lh5.googleusercontent.com/70pcrLz4sFBdN-Ydz9MHnRtq7iC1ysFGkIVyWLFdGWpOibbfDWw5Coq5yCfszRS1b0qX78OCzF1lA9YnygTEArltnu4Tr76Nq-SUDOXgOzVAc56MXFzUHmJclnYqSGsgx_x651UX)
+
+Registration page step 3: Picture and basic information
+![main page](https://lh3.googleusercontent.com/ZtJQMpKotGwLP3ZS82Z5oSYJXETovaRcGuyg_4qzLr9yPPFV7WXGQB4fa_L4U-EsNAdNkF_kQdomChEjeAP7vdaFf8pcixPxuuY1oPDo7Fj4EwNflALWm0ILzB5Ogk5Hsa1J9ohW)
+
+Video stream: Detected and recognized face
+![main page](https://lh3.googleusercontent.com/VUxjD9xPVtKumoPxioQVbr4pWK6Cm9A0cESejbA-ki-g2xiY_udeBOwQ_8nTm3PEq3InulFC1xFrBHdqIXbAa4j_6ehXu-oUgVEgo9kXcshXBGg9_2BM21PmDfbTL7Y3t1JJkzLX)
+
+Video stream: After stream is stopped, with image results of recognized faces (top left)
+![main page](https://lh4.googleusercontent.com/DqmFyaGc9BF4Mrtzpnu7UZOMGoVFdFHHNtSUlgT-4KwTkn2LRVFf-AgLmZ0N6a0DuJIf222e9uXONO_TIDeeVARGE8uEyNLTa-o118bFgwIJYs2-eofHe1vHAIG8zv0tTBpz-26k)
+
+User settings page
+![main page](https://lh6.googleusercontent.com/nLOeMtL0k4mPQJ6yOWSxz4WPvyf4YTGy661OAH-ZZDIKEHVrHruHUb4gbY9crzEyNCCsOSCxiFn--3aLZGVKNVmIrxiiw6y3RwqiJKbS)

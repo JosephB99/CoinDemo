@@ -69,4 +69,4 @@ Video stream: After stream is stopped, with image results of recognized faces (t
 ![main page](https://lh4.googleusercontent.com/DqmFyaGc9BF4Mrtzpnu7UZOMGoVFdFHHNtSUlgT-4KwTkn2LRVFf-AgLmZ0N6a0DuJIf222e9uXONO_TIDeeVARGE8uEyNLTa-o118bFgwIJYs2-eofHe1vHAIG8zv0tTBpz-26k)
 
 User settings page\
-![main page](https://lh6.googleusercontent.com/nLOeMtL0k4mPQJ6yOWSxz4WPvyf4YTGy661OAH-ZZDIKEHVrHruHUb4gbY9crzEyNCCsOSCxiFn--3aLZGVKNVmIrxiiw6y3RwqiJKbS)
+![main page](https://lh6.googleusercontent.com/zNe2RdiHEpxG6lcH4Gscb3EkEELNFSdcmhvQLiADp6Y5HULB0T5eR0TDCFT0yrhGOnaSi0XYgdPFTp7V6-JDF0lcQ1UIQNuJGmK1JegVwnXoCwMsFrijrfwuYiVJ8-F56_ZynzsA)
